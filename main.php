@@ -30,7 +30,7 @@
 <html>
 <head><title>SiS: Welcome!</title></head>
 <body>
-<h1>Student info System</h1>
+<h1>Student info System V.1</h1>
 
 
 <form method='post' action='index.php'>
