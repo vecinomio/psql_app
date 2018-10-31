@@ -1,5 +1,5 @@
 <?php	
-	$con = pg_connect("host=172.16.0.1 port=5432 dbname=sisdb user=root password=fdsa192r");
+	$con = pg_connect("host=172.16.0.1 port=5432 dbname=sisdb user=root password=12345");
 	    if($con){
 		echo 'It Works!!!';
 	    } else {
