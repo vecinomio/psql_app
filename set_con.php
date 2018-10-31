@@ -1,7 +1,7 @@
 <?php	
 	$con = pg_connect("host=172.16.0.1 port=5432 dbname=sisdb user=root password=fdsa192r");
 	    if($con){
-		echo 'connected Mother Fucker!!!';
+		echo 'It Works!!!';
 	    } else {
 		$error = error_get_last();
 		    echo "Connaction failed. Error was: ". $error['message']."\n";

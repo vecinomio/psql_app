@@ -30,13 +30,13 @@
 <html>
 <head><title>SiS: Welcome!</title></head>
 <body>
-<h1>Student info System V.1</h1>
+<h1>Student info System V.4</h1>
 
 
 <form method='post' action='index.php'>
 	<table>
 	<tr>
-	<td>Name:</td>
+	<td>Full name:</td>
 	<td colspan=2>
 <input type='text' name='name' value='<?php echo $_GET["name"];?>'>
 	</td>
@@ -55,7 +55,7 @@
 
 <hr>
 
-<h3>Current team:</h3>
+<h3><em>Current team:</em></h3>
 <table border="1">
 <tr><th>ID</th><th>Name</th><th>Age</th><th colspan='2'>Manage</th></tr>
 
